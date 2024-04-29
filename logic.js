@@ -2,11 +2,13 @@ function addNumber(num){
     console.log(num);
 }
 
+function handleClick(num) {
+    console.log(num, typeof num);
+}
 
 function main() {
-    const idNumberTwo = document.getElementById("n2");
-    console.log(idNumberTwo);
-    addNumber(3);
+    var idNumberTwo = document.getElementById("n2");
+    
 }
 
 main();
