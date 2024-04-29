@@ -11,7 +11,7 @@
         <section class="numbers">
             <button onclick="handleClick(0)">0</button>
             <button onclick="handleClick(1)">1</button>
-            <button onclick="handleClick(2)" id="n2">2</button>
+            <button onclick="handleClick(2)">2</button>
             <button onclick="handleClick(3)">3</button>
             <button onclick="handleClick(4)">4</button>
             <button onclick="handleClick(5)">5</button>
@@ -21,13 +21,13 @@
             <button onclick="handleClick(9)">9</button>
         </section>
         <section>
-            <button>+</button>
-            <button>-</button>
-            <button>*</button>
-            <button>/</button>
-            <button>=</button>
+            <button onclick="handleClick('+')">+</button>
+            <button onclick="handleClick('-')">-</button>
+            <button onclick="handleClick('*')">*</button>
+            <button onclick="handleClick('/')">/</button>
+            <button onclick="handleClick('=')">=</button>
         </section>
-        <div class="result">15555</div>
+        <div class="result"></div>
     </main>
     <script src="./logic.js"></script>
 </body>
